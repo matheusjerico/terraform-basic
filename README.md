@@ -3,6 +3,7 @@
 Repositório para implementação de IaC com Terraform. Criação de VM, Banco de Dados, Load Balancer, Firewall e DNS com o Terraform na Cloud Digital Ocean.
 
 ## Estrutura
+```bash
 .
 ├── main.tf
 ├── modules
@@ -30,6 +31,7 @@ Repositório para implementação de IaC com Terraform. Criação de VM, Banco d
 ├── terraform.tfvars
 ├── variables.tf
 └── versions.tf
+```
 
 # Como reproduzir?
 
