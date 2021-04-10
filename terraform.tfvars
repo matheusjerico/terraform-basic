@@ -1,0 +1,14 @@
+ssh_keys             = "33:4a:e2:9c:26:10:81:d5:e4:c3:1c:5d:da:c6:11:7a"
+droplet_names        = ["web-1"]
+droplet_image        = "ubuntu-18-04-x64"
+droplet_size         = "s-1vcpu-1gb"
+region               = "nyc1"
+private_key_path     = "/home/magalu/.ssh/id_rsa_matheusjerico"
+lb_name              = "loadbalancer-01"
+pg_cluster_name      = "postgres-cluster"
+pg_cluster_version   = "12"
+pg_cluster_size      = "db-s-1vcpu-1gb"
+pg_nodes_count       = 1
+pg_database_name     = "database"
+pg_database_username = "matheus"
+firewall_name        = "firewalldroplet"
